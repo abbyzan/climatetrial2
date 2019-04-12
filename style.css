@@ -1,0 +1,197 @@
+/* CSS files add styling rules to your content */
+
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  position: relative;
+  width: 900px;
+  z-index: 0;
+  float: left;
+}
+
+h2{
+  margin: 15px;
+  top: 200px;
+  left: 0px;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  z-index: -1;
+  padding-bottom: 600px;
+}
+
+.menu{
+  border-style: solid;
+  width: 450px;
+  height: 60px;
+  float: right;
+  list-style-type: none;
+  z-index: 1000;
+  position: relative;
+  
+}
+
+.menu li{
+  display: inline;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: yellow;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 2500;
+  font-family:'Pavanam', sans-serif;
+}
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Staatliches', cursive;
+  margin: 2em;
+}
+
+h1 {
+  color: #16790F;
+}
+
+*/*#map{
+  height: 100%;
+  width: 100%;
+  margin-top: 500px;
+  margin-left: inherit;
+  position: absolute;
+  z-index: -1;
+  padding: 100px;
+}
+*/
+
+#map {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 300px;
+  bottom: 300px;
+  margin: 0 auto;
+}
+
+#formmap {
+  width: 700px;
+  height: 600px;
+}
+
+form {
+  font-family:'Pavanam', sans-serif;
+}
+
+#submit{
+  font-size: 20px;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.layer-picker {
+  position: fixed;
+  float: none;
+  top: 200px;
+  right: 50px;
+  z-index: 20000;
+  font-family:'Pavanam', sans-serif;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  width: 25%;
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+  z-index: 3000;
+}
+
+.sidebar-footer {
+position: fixed;
+  float: none;
+  top: 250px;
+  right: 45px;
+  z-index: 20000;
+}
+
+.sidebar-feature-content{
+  float: left;
+  top: 450px;
+}
+
+.resourcetitle{
+  word-break: keep-all;
+  width: 5000px;
+}
+
+.popuptitle{
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+}
+
+.grid-item{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.grid-item1{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start
+}
+
+.grid-item2{
+  font-size: 14px;
+  font-family: 'Dosis', sans-serif;
+  grid-column-start: auto;
+  grid-column-end: auto;
+}
